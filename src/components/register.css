@@ -1,0 +1,50 @@
+.novelsReg {
+    background: transparent;
+}
+  
+#signInBtn {
+    background: transparent;
+
+}
+.form-outline input{
+    background: transparent;
+    border: 0;
+    border-bottom: 1px white solid;
+}
+.diver {
+    height: 50px;
+    margin-left: 5vw;
+    margin-top: 15px;
+    position: relative;
+    width: 294px;
+    border: none !important;
+    font-size: 16px;
+    transition: ease 0.7s;
+    color: white;
+}
+.Register {
+    color: white !important;
+}
+.diver:hover {
+    font-size: 18px;
+    transform: scale(1.3);
+    color: orange;
+}
+
+.hack {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+.row {
+    
+    justify-content: space-around;
+}
+.Login{
+    color: #8c8c8c;
+    text-decoration: none;
+}
+
+.Login:hover{
+    color: rgb(249, 165, 4);
+
+}

@@ -1,0 +1,178 @@
+body {
+    overflow-x: hidden !important;
+}
+
+#landing {
+    background-image: url('../images/gg.png') !important;
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    /* height: 100vh; */
+}
+#head{
+    color: rgb(249, 165, 4) !important;
+}
+#head {
+    font-family: "Penumbra", helvetica, arial;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    font-weight: normal;
+    padding-top: unset;
+    text-align: left;
+    color: #213338;
+}
+
+#diver {
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 294px;
+}
+#diverr {
+    height: 50px;
+    position: relative;
+    width: 93vw;
+}
+.logo {
+    width: 100px;
+    height: 150px;
+}
+.figureWEB {
+    width:70%;
+    margin-left:19%;
+    display : flex;
+    gap : 25px;
+    margin-top: 3vw;
+    flex-wrap: wrap;
+}
+
+.imagees {
+    border: 3px solid #213338;
+    width: 20vw;
+    height: 35vw;
+    
+}
+
+#navBarContainer {
+    background-color: transparent !important;
+    position: fixed;
+}
+.backgroundImg {
+    background-image: url('../images/sss.webp') !important;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+#imgNav {
+    margin-left: 3px;
+    width: 3vw;
+    height: 3vw;
+}
+
+#logout {
+    color: aliceblue !important;
+    font-size: 18px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    top: 35%;
+    /* padding: 2rem; */
+}
+
+.txt {
+    background-color: #ffffff61;
+    padding: 2rem;
+
+}
+.container h1,p{
+    color: black;
+}
+.home:hover , .profile:hover , .out:hover {
+    color: aliceblue !important;
+}
+#search {
+    background: transparent;
+    border: none !important;
+    color: white;
+    font-size: 14px;
+    width: 16rem;
+}
+
+#search::placeholder {
+    font-size: 14px;
+    color: white;
+}
+
+.formSearch{
+    border-radius: 25px;
+    background-color: #0b0b0bac;
+    border: .3px #213338 solid;
+    padding: 2px 13px 5px;
+    text-align: center;
+}
+.formSearch button i {
+    font-size: 15px;
+    color: white;
+}
+
+/* /////////////////// button  ///////////////  */
+
+.btn {
+    --color: black;
+    --color2: rgb(10, 25, 30);
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+   }
+   
+   .btn::after, .btn::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: black;
+   }
+   
+   .btn::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover {
+    color: white;
+   }
+   
+   .btn:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+   }

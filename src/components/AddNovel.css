@@ -1,0 +1,72 @@
+#diver {
+    /* background: url("../images/detail.dividers.png") 35px -1px no-repeat; */
+    height: 50px;
+    margin-left: 38.5vw;
+    margin-right: auto;
+    position: relative;
+    width: 380px;
+}
+
+#head {
+    padding: 1em 0;
+}
+
+.navbar-brand {
+    padding-left: 2rem;
+}
+
+#formm {
+    margin-top: 10vw;
+    height: 52vh;
+}
+
+.bak {
+    height: 100vh;
+}
+
+#formm input::placeholder {
+    color: aliceblue;
+}
+
+.navbar-expand .navbar-nav {
+    padding-left: 15rem;
+}
+
+#imgAdd {
+    width: 5.5vw;
+    height: 7vw;
+    margin-left: 32vw;
+    cursor: pointer;
+}
+
+#addNovelDB {
+    width: 5vw;
+    height: 5vw;
+    margin-left: 23vw;
+    color: white;
+
+}
+
+#imgLabel {
+    /* position: absolute; */
+    display: inline-block;
+    font-family: "Penumbra", helvetica, arial;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    font-weight: normal;
+    padding-top: unset;
+    text-align: left;
+    color: white;
+    margin-left: 32vw;
+    bottom: 2.5vw;
+}
+
+#formm input {
+
+    margin-left: 32vw;
+    width: 35vw;
+    height: 3vw;
+    color: aliceblue;
+    background: transparent;
+    border-bottom: 1px white solid;
+}
